@@ -19,7 +19,7 @@
 		}
 
 ### Enter決定入力キーの作成<br>
-public void anythingPush(){
+	public void anythingPush(){
 		while(true){
 			System.out.print("⏎ >");
 			String scanner = new java.util.Scanner(System.in).nextLine();

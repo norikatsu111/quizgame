@@ -8,7 +8,7 @@
 
 ## 機能<br>
 
-クイズyes/noで判定、一度でも間違えると終了<br>
+###クイズyes/noで判定、一度でも間違えると終了<br>
 		if(i.isquizQuestions()==true) {
 			j.Judgment_comment(count);
 			System.out.println("\n"+"クイズゲーム終了です！お疲れ様でした。");
@@ -18,7 +18,7 @@
 			k.comic(4,12);
 		}
 
-Enter決定入力キーの作成<br>
+###Enter決定入力キーの作成<br>
 public void anythingPush(){
 		while(true){
 			System.out.print("⏎ >");
@@ -26,7 +26,7 @@ public void anythingPush(){
 		}
 	}
 
-クイズの正解数で、評価、コメントを出す<br>
+###クイズの正解数で、評価、コメントを出す<br>
 　	public  void Judgment_comment(int count) {
 		System.out.println("\n"+"お疲れ様でした！");
 		System.out.print("\n"+"\u001b[94m☤☤判定させて頂きます！☤☤\u001b[00m");
